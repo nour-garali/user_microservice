@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.nour.users.UserMicroserviceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.117 s <<< FAILURE! - in com.nour.users.UserMicroserviceApplicationTests
+contextLoads  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@618e7761 testClass = com.nour.users.UserMicroserviceApplicationTests, locations = [], classes = [com.nour.users.UsersMicroserviceApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7d286fb6, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@41005828, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@609db546, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@9da1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@38604b81, org.springframework.boot.test.context.SpringBootTestAnnotation@70159598], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'usersMicroserviceApplication': Invocation of init method failed
+Caused by: java.lang.Error: 
+Unresolved compilation problems: 
+	The constructor Role(null, String) is undefined
+	The constructor Role(null, String) is undefined
+	The constructor User(null, String, String, boolean, null) is undefined
+	The constructor User(null, String, String, boolean, null) is undefined
+	The constructor User(null, String, String, boolean, null) is undefined
+
+
